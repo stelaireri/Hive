@@ -1,8 +1,20 @@
 <title>CodeHive: Learn</title>
 <style type="text/css">
 	#body-sec{
+		padding-top: 40px;
 		height:600px;
+		width:900px;
+		margin: 0 auto;
 	}
+	#body-sec p{
+		font-size: 20px;
+		padding-top: 20px;
+	}
+	h1{
+		color:#3399cc;
+		font-size: 40px;
+	}
+
 </style>
 </head>
 <body>
@@ -83,7 +95,19 @@
 		</nav>
 	</header>
 	<section id="body-sec">
-		
+		<h1>Learn</h1>
+		<p>Here at CodeHive, we are a little bit obsessed with the universality of technology. Information Technology is a very unique 
+		field. The technologies used in IT all over the world are shared; right from 
+		programming languages, networking technologies, databases etc. E-Courseware and e-learning platforms 
+		have greatly increased over the last few years and have greatly improved the skill levels of the tech 
+		workforce all over the world. The awesome guys over at <a target="_blank" href="http://www.pluralsight.com">PluralSight</a>, <a target="_blank" href="
+		http://www.lynda.com">Lynda</a>, <a target="_blank" href="http://www.cbtnuggets.com">CBTNuggets</a>, <a target="_blank" href="http://www.infiniteskills.com">InfiniteSkills</a>, <a target="_blank" href="http://www.udemy.com">Udemy</a> just to name a few
+		have taken their time to make it easier for aspiring IT specialists to learn new technologies at a great 
+		price.</p>
+		<p>We want to take the learning a little step further. You may be working on a project and you are 
+		having a hard time debugging a particular piece of code or maybe trying to learn a new technology. Post your
+		portion of code to your hive and invite different professionals from different parts of the world to
+		have a look at it and help you get back to the zone again.</p>
 	</section>
 </body>
 </html>

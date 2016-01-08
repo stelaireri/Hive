@@ -26,8 +26,9 @@ class Home extends CI_Controller {
 
 	public function mentor()
 	{
-		echo "Mentor Page"; die;
+		//echo "Mentor Page"; die;
 		$this->load->view('mentor_v');
+		$this->load->view('footer_v');
 	}
 
 	public function outsource()
