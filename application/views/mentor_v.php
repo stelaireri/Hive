@@ -1,4 +1,4 @@
-	<title>CodeHive: Learn</title>
+	<title>CodeHive: Mentor</title>
 	<style type="text/css">
 	#body-sec{
 		padding-top: 40px;
@@ -13,6 +13,20 @@
 	h1{
 		color:orange;
 		font-size: 40px;
+	}
+	footer ul li a{
+		color: orange;
+	}
+	footer ul li a:hover{
+		color: orange;
+		text-decoration: underline;
+	}
+	footer article div span a{
+		color: orange;
+	}
+	footer article div span a:hover{
+		color: orange;
+		text-decoration: underline;
 	}
 	</style>
 </head>
@@ -95,6 +109,18 @@
 	</header>
 	<section id="body-sec">
 		<h1>Mentor</h1>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+		 the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+		 of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+		 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
+		 in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+		 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum placerat enim in porttitor. 
+		 Vestibulum aliquam metus et vestibulum imperdiet. Etiam malesuada risus eu mi mollis, sit amet
+		 iaculis quam finibus. Etiam fermentum nunc id magna posuere consectetur. Cras varius in erat 
+		 eget aliquet. Phasellus ut aliquet enim. Donec ac ex quis risus finibus lacinia. Quisque elementum 
+		 varius ex, at scelerisque est rhoncus at. In hac habitasse platea dictumst. Pellentesque vestibulum 
+		 nulla quis porta condimentum.</p>
 	</section>
 </body> 
 </html>

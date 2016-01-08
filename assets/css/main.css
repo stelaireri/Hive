@@ -25,22 +25,24 @@ nav ul li {
 	margin-top: 10px !important;
 }
 footer{
-	min-height: 50px;
+	height: 250px;
 	background-color: #383838;
+	clear:both;
+	margin: 0 auto;
 }
 .links{
 	margin-top: 20px;
-	margin-left: 60px;
-	margin-right: 100px;
+	margin-left: 50px;
 }
 footer article{
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 footer article ul{
 	margin:0 auto;
 	list-style-type: none;
 }
-footer article h4{
+footer article h4, h5{
 	color: white;
+}
+#outsrc{
+	
 }

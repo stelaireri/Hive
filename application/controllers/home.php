@@ -9,6 +9,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('home_v');
+		$this->load->view('footer_v');
 	}
 
 	public function learn_more()
@@ -33,7 +34,8 @@ class Home extends CI_Controller {
 
 	public function outsource()
 	{
-		echo "Outsource Page"; die;
+		//echo "Outsource Page"; die;
 		$this->load->view('outsource_v');
+		$this->load->view('footer_v');
 	}
 }

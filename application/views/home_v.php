@@ -31,7 +31,7 @@ nav ul li {
 	margin: 0 auto;
 }
 .intro{
-	background-image: url('assets/images/background_1.jpg');
+	background-image: url('<?php echo base_url();?>assets/images/background_1.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -84,8 +84,6 @@ footer{
 }
 .links{
 	margin-top: 20px;
-	margin-left: 60px;
-	margin-right: 100px;
 }
 footer article{
 	padding-top: 20px;
@@ -169,7 +167,7 @@ footer article h4{
     </div>
     <!-- End of Registration Modal-->
 	<header>
-		<a href="#"><img src="<?php base_url()?>assets/images/codehive_logo.png" height="50" width="50"></a>
+		<a href="#"><img src="<?php echo base_url()?>assets/images/codehive_logo.png" height="50" width="50"></a>
 		<nav id="navigation" class="navbar">
 			<ul>
 				<li><a data-toggle="modal" href="#loginModal" class="top-btn btn btn-primary">Login</a></li>
@@ -181,64 +179,64 @@ footer article h4{
 		<article class="intro-para">
 			<p class="title">Welcome to CodeHive</p>
 			<p class="phrase">The <span style="color:#3399CC;">learning</span>, <span style="color:orange">mentorship</span> and <span style="color:#33CC00;">outsourcing</span> network for tech enthusiasts</p>
-			<a href="<?php base_url()?>home/learn_more" class="learn-btn btn btn-warning">Learn More</a>
+			<a href="<?php echo base_url()?>home/learn_more" class="learn-btn btn btn-warning">Learn More</a>
 		</article>
 	</section>
 	<section id="services" class="services body-sec">
 		<article class="mentorship" style="width:33%; height:450px; float:left; border-right:1px solid #3399cc;">
 			<p class="title-2" style="color:#3399CC; ">Learn</p>
-			<img class="art-icon" src="<?php base_url()?>assets/images/background_1.jpg" width="120px" height="120px"/>
+			<img class="art-icon" src="<?php echo base_url()?>assets/images/background_1.jpg" width="120px" height="120px"/>
 			<p style="margin:20px;">Run through the user profiles of our highly talented network and hit them up and learn
 			different stuff from them.</p>
-			<a href="home/learn" class="btn btn-primary">More..</a>
+			<a href="<?php echo base_url();?>home/learn" class="btn btn-primary">More..</a>
 		</article>
 		<article class="learn" style="width:34%; height:450px; float:left; border-right:1px solid orange;">
 			<p class="title-2" style="color:orange">Mentor</p>
-			<img class="art-icon" src="<?php base_url()?>assets/images/background_1.jpg" width="120px" height="120px"/>
+			<img class="art-icon" src="<?php echo base_url()?>assets/images/background_1.jpg" width="120px" height="120px"/>
 			<p style="margin:20px;">Sign up as a mentor or to be mentored and help each other through the journey of 
 			learning and using new technologies</p>
-			<a href="home/mentor" class="btn btn-warning">More...</a>
+			<a href="<?php echo base_url(); ?>home/mentor" class="btn btn-warning">More...</a>
 		</article>
 		<article class="outsource" style="width:33%; height:450px; float:left;">
 			<p class="title-2" style="color:#33CC00;">Outsource</p>
-			<img class="art-icon" src="<?php base_url()?>assets/images/background_1.jpg" width="120px" height="120px"/>
+			<img class="art-icon" src="<?php echo base_url()?>assets/images/background_1.jpg" width="120px" height="120px"/>
 			<p style="margin:20px;">Got a project? Sign up and get to view the different skills of our wide array
 			of users and 'buzz' those you think might deliver.</p>
-			<a href="home/outsource" class="btn btn-success">More...</a>
+			<a href="<?php echo base_url(); ?>home/outsource" class="btn btn-success">More...</a>
 		</article>
 	</section>
 	<section class="testimony body-sec">
 		<h3 style="text-align:left !important;">What are people saying about CodeHive...</h3>
 		<article id="testimonial1" class="testimonial" style="width:24%; float:left;">
-			<img class="art-icon" src="<?php base_url()?>assets/images/default_user.jpg" width="120px" height="120px">
+			<img class="art-icon" src="<?php echo base_url()?>assets/images/default_user.jpg" width="120px" height="120px">
 			<h4><a href="#">@user1</a></h4>
 			<p style="text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
 			industry's standard dummy text ever since the 1500s, when an unknown printer took
 			 a galley of type and scrambled it to make a type specimen book</p>
 		</article>
 		<article id="testimonial1" class="testimonial" style="width:24%; float:left;">
-			<img class="art-icon" src="<?php base_url()?>assets/images/default_user.jpg" width="120px" height="120px">
+			<img class="art-icon" src="<?php echo base_url()?>assets/images/default_user.jpg" width="120px" height="120px">
 			<h4><a href="#">@user2</a></h4>
 			<p style="text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
 			industry's standard dummy text ever since the 1500s, when an unknown printer took
 			 a galley of type and scrambled it to make a type specimen book</p>
 		</article>
 		<article id="testimonial1" class="testimonial" style="width:24%; float:left;">
-			<img class="art-icon" src="<?php base_url()?>assets/images/default_user.jpg" width="120px" height="120px">
+			<img class="art-icon" src="<?php echo base_url()?>assets/images/default_user.jpg" width="120px" height="120px">
 			<h4><a href="#">@user3</a></h4>
 			<p style="text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
 			industry's standard dummy text ever since the 1500s, when an unknown printer took
 			 a galley of type and scrambled it to make a type specimen book</p>
 		</article>
 		<article id="testimonial1" class="testimonial" style="width:24%; float:left;">
-			<img class="art-icon" src="<?php base_url()?>assets/images/default_user.jpg" width="120px" height="120px">
+			<img class="art-icon" src="<?php echo base_url()?>assets/images/default_user.jpg" width="120px" height="120px">
 			<h4><a href="#">@user4</a></h4>
 			<p style="text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
 			industry's standard dummy text ever since the 1500s, when an unknown printer took
 			 a galley of type and scrambled it to make a type specimen book</p>
 		</article>
 	</section>
-	<footer>
+	<!-- <footer>
 		<section style="">
 			<article class="links">
 				<ul>
@@ -251,7 +249,7 @@ footer article h4{
 				</ul>
 			</article>
 		</section>
-	</footer>
+	</footer> -->
 	<script type="text/javascript">
 	</script>
 </body>
