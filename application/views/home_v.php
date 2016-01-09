@@ -108,7 +108,7 @@ footer article h4{
 	            <h3 class="modal-title">Login</h3>
 	            </div>
 	            <div class="modal-body">
-	            <form method="post" action="user/login">
+	            <form method="post" action="<?php echo base_url(); ?>user/login">
 	            	<div class="form-group">
 	            		<label for="username">Username</label>
 	            		<input class="form-control" placeholder="Username" name="username" required/>
@@ -135,7 +135,7 @@ footer article h4{
             <h3 class="modal-title">Sign Up</h3>
             </div>
             <div class="modal-body">
-            <form method="post" action="user/sign_up">
+            <form method="post" action="<?php echo base_url();?>user/sign_up">
             	<div class="form-group">
             		<input class="form-control" placeholder="First Name" name="fistname" required/>
             	</div>
@@ -178,7 +178,7 @@ footer article h4{
 	<section class="intro body-sec">
 		<article class="intro-para">
 			<p class="title">Welcome to CodeHive</p>
-			<p class="phrase">The <span style="color:#3399CC;">learning</span>, <span style="color:orange">mentorship</span> and <span style="color:#33CC00;">outsourcing</span> network for tech enthusiasts</p>
+			<p class="phrase">The <span style="color:orange">mentorship</span>, <span id="text1" style="color:#3399CC;">learning</span> and <span style="color:#33CC00;">outsourcing</span> network for tech enthusiasts</p>
 			<a href="<?php echo base_url()?>home/learn_more" class="learn-btn btn btn-warning">Learn More</a>
 		</article>
 	</section>
@@ -251,6 +251,7 @@ footer article h4{
 		</section>
 	</footer> -->
 	<script type="text/javascript">
+
 	</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <footer>
-		<article style="float:left; width:40%;" class="links">
+		<article  style="float:left; width:40%;" class="links">
 			<ul>
 			<h4>More Links</h4>
 				<li><a href="#">Hall of Fame</a></li>
@@ -9,7 +9,7 @@
 				<li><a href="#">How it Works</a></li>
 			</ul>
 		</article>
-		<article style="float:left; width:15%; margin-top: 58px;">
+		<article style="float:left; width:15%; margin-top: 65px;">
 			<h5><span id="outsrc">Got a project? Browse our users  with the listed skills and much more.</span></h5>
 		</article>
 		<article style="float:left;">
