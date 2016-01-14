@@ -110,8 +110,8 @@ footer article h4{
 	            <div class="modal-body">
 	            <form method="post" action="<?php echo base_url(); ?>user/login">
 	            	<div class="form-group">
-	            		<label for="username">Username</label>
-	            		<input class="form-control" placeholder="Username" name="username" required/>
+	            		<label for="email_address">Username</label>
+	            		<input class="form-control" placeholder="Email Address" name="email_address" required/>
 	            	</div>
 	            	<div class="form-group">
 	            		<label for="password">Password</label>
