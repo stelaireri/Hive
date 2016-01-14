@@ -21,14 +21,15 @@ class Users extends Doctrine_Record{
 		return $password;
 	}
 
-	public static function get_password(){
+	/*public static function get_password(){
 		$query = Doctrine_Manager::getInstance()->getCurrentConnection()->fetchAll("
 			SELECT password FROM users");
 		return $query[0]['password'];
 	}
-
+	*/
+	
 	public function save_user(){
-		
+
 	}
 
 }
